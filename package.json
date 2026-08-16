@@ -1,0 +1,18 @@
+{
+  "name": "silah",
+  "version": "1.0.0",
+  "description": "صلة — نظام إدارة الأنساب وحساب صلات القرابة",
+  "type": "commonjs",
+  "main": "server/app.js",
+  "scripts": {
+    "start": "node server/app.js",
+    "dev": "node --watch server/app.js",
+    "seed": "node seed/seed.js",
+    "seed:reset": "node seed/seed.js --reset",
+    "test": "node --test tests/"
+  },
+  "engines": {
+    "node": ">=22.5.0"
+  },
+  "license": "MIT"
+}
